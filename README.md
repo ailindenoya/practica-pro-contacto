@@ -61,6 +61,32 @@ Un ejemplo puede ser:
     <nombre>Chulin</nombre>
   </michi>
 </michis>
+9. Explicar brevemente el estándar SOAP
+Simple Object Access Protocol es un protocolo de comunicación basado en XML que permite interoperar de manera fluida entre sistemas heterogéneos. Tiene una definición clara y estandar para el formato de mensajes, además de poder incluir metadatos en los mismos. También puede ser transportado a través de varios protocolos subyacentes. SOAP permite invocar de forma remota funciones en sistemas distribuidos y esta conformado por mecanismos de seguridad que asegura integridad y confidencialidad de los datos.
+10. Explicar brevemente el estándar REST Full
+Una API es un conjunto de funciones y procedimientos que pueden ser usadas por un software. Una API web es una especie de puerta de enlace entre los clientes y los recursos de la web. REST (Representational State Transfer) es una arquitectura de software que impone condiciones sobre cómo debe funcionar una API. Se puede utilizar este tipo de arquitecturas para comunicaciones confiables y de alto rendimiento. Las API que siguen el estilo arquitectónico de REST se llaman API REST y, API RESTful alude a las API web RESTful.
+11. ¿Qué son los headers en un request? ¿Para qué se utiliza el key Content-type en un header?
+Los headers o encabezados HTTP contienen metadata en pares clave-valor. Se pueden utilizar para definir comportamiento manejo de caché, estado de sesiones y facilitar la autenticación. Estos permiten una comunicación mas efectiva entre cliente y servidor. El header Content-Type identifica el tipo de medio de cualquier recurso en el cuerpo del request. Dicha información permite que el servidor lo interprete y procese de manera correcta.
+
+Ejercicio 3.
+
+Hago GET: 
+![alt text](https://i.postimg.cc/bvMYSpQn/pro-con.png)
+
+Hago POST: 
+![alt text](https://i.postimg.cc/Gh9MqRYt/pro-con2.png)
+
+Hago GET nuevamente para ver que se haya hecho el POST de manera correcta: 
+
+![alt text](https://i.postimg.cc/dtX5ffmB/pro-con3.png)
+
+¿Qué diferencias se observan entre las llamadas el punto 1 y 3?
+Mi POST (mi email y mi nombre) fueron agregados al listado de emails y nombres que obtuve en el primer GET.
+
+
+
+
+
 
 
 
