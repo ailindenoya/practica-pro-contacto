@@ -152,28 +152,47 @@ Un Sandbox es una copia del sistema u organización que se desarrolló en Salesf
 J. ¿Qué es un ChangeSet?
 Un ChangeSet es una herramienta que se utiliza para agrupar y migrar configuraciones personalizadas entre un Sandbox y el entorno de producción. 
 K. ¿Para qué sirve el import Wizard de Salesforce?
-
+El import Wizard de Salesforce sirve para la importación masiva de datos desde fuentes externas a la organización. Es útil para grandes cantidades de registros como cuentas, contactos, oportunidades u otros objetos estándar y personalizados.
 L. ¿Para qué sirve la funcionalidad Web to Lead?
+La funcionalidad Web to Lead permite capturar de manera automática información de Leads desde el propio sitio web de la organización y convertirla en registros de Salesforce. 
 M. ¿Para qué sirve la funcionalidad Web to Case?
+La funcionalidad Web to Case permite recolectar solicitudes de soporte de los clientes desde el propio sitio web de la organización y generar cases de Salesforce.
 N. ¿Para qué sirve la funcionalidad Omnichannel?
+La funcionalidad Omnichannel utiliza reglas de enrutamiento y priorización configurables para dirigir automáticamente interacciones entrantes al agente más adecuado según la disponibilidad, habilidades y cargas de trabajo actuales.
 O. ¿Para qué sirve la funcionalidad Chatter?
-
+La funcionalidad Chatter habilita a que los usuarios colaboren en Opportunities, Cases, campañas y proyectos con aplicaciones incrustadas y acciones personalizadas. Proporciona un flujo de noticias personalizado donde los usuarios pueden publicar actualizaciones, compartir archivos, mencionar a otros usuarios y comentar en publicaciones, tal como si se tratase de una red social. 
 
 Conceptos generales
 A. ¿Qué significa SaaS?
+Software As A Service es un modelo para distribuir software. El soporte y los datos son gestionados en servidores de un proveedor al que se accede a través de internet. El proveedor proporciona tanto el hardware como el software. 
 B. ¿Salesforce es Saas?
+Salesforce es un SaaS ya que se distribuye a través de internet y está disponible para los usuarios a través de un navegador web sin necesidad de contar con más que acceso a internet.
 C. ¿Qué significa que una solución sea Cloud?
+Una solución Cloud es aquella que tiene por objetivo almacenar los datos de una organización a través de un proveedor. Este tipo de soluciones permite acceso remoto a softwares, almacenamiento de archivos y procesamiento de datos por medio de Internet.
 D. ¿Qué significa que una solución sea On-Premise?
+Una solución On-Premise refiere a cualquier solución que instale y opere software en los servidores y equipos de una organización. 
 E. ¿Qué es un pipeline de ventas?
+Un pipeline de ventas es un flujo de trabajo secuencial que sigue una organización para convertir prospectos en clientes mediante ventas. Representa visual y conceptualmente todas las etapas que atraviesa un prospecto desde que muestra interés inicial hasta que realiza una compra.
 F. ¿Qué es un funnel de ventas?
+Un funnel de ventas, también conocido como "embudo de ventas" está centrado en el filtrado y clasificación de prospectos a medida que avanzan a través de las diferentes etapas del proceso de ventas.
 G. ¿Qué significa Customer Experience?
+Customer Experience es la impresión que se llevan los clientes de la imágen de una organización a lo largo de todos los puntos del ciclo del comprador. 
 H. ¿Qué significa omnicanalidad?
-I. ¿Qué significa que un negocio sea B2B?¿Qué significa que un negocio sea B2C?¿Qué es un KPI?
+Igual a la pregunta H. La omnicanalidad implica que los clientes puedan interactuar con una organización a través de diversos canales de manera fluida y consistente, sin importar por dónde elijan hacerlo.
+I. ¿Qué significa que un negocio sea B2B? ¿Qué significa que un negocio sea B2C? ¿Qué es un KPI?
+Un modelo de negocio B2B (Business-To-Business) refiere a transacciones comerciales donde una empresa vende productos, servicios o soluciones a otra empresa. Por otro lado, un model B2C (Business-To-Consumer) implica la venta directa a consumidores individuales.
+Un KPI es una métrica métrica utilizada para ayudar a gestionar un servicio de IT, proceso, plan de proyecto o actividad. Pueden utilizarse muchas métricas, pero solo las más importantes se definen como KPIs y se utilizan para gestionar e informar sobre un
+proceso, servicio de IT o actividad.
 J. ¿Qué es una API y en qué se diferencia de una Rest API?
+Una API (Application Programming Interface) es un conjunto de reglas y definiciones que permite que diferentes aplicaciones se comuniquen entre sí. Una REST API (Representational State Transfer API) es un tipo específico de API que sigue los principios del estilo arquitectónico REST. Este está basado en HTTP, los recursos se representan a través de URLs y es stateless (cada request HTTP contiene toda la información necesaria para ser procesada y no se mantiene estado de sesión).
 K. ¿Qué es un Proceso Batch?
+Un proceso batch es la ejecución automatizada y programada de tareas que se realizan en lotes o conjuntos. Es muy útil para manejar grandes volúmenes de datos o realizar operaciones que requieren tiempo y recursos significativos.
 L. ¿Qué es Kanban?
+Kanban permite gestionar el trabajo y optimizar los procesos de manera eficiente y visual. Cuenta con tableros y tarjetas para planificar con claridad. Además cuenta con un enfoque "pull" que consiste en que las tarjetas se muevan de una columna a la siguiente a medida que se avanza en el trabajo
 M. ¿Qué es un ERP?
+Un ERP (Enterprise Resource Planning) es un sistema integrado de gestión empresarial diseñado para ayudar a las organizaciones a manejar y automatizar sus procesos centrales. Permite la integración de varias funciones comerciales, como la planificación de recursos humanos, contabilidad, inventario, gestión de pedidos, compras y más, en un sistema unificado.
 N. ¿Salesforce es un ERP?
+Salesforce no es un ERP. Sin embargo, ofrece varias soluciones comerciales que se pueden integrar para mejorar y respaldar un ERP. Tiene capacidades extendidas a través de su ecosistema de aplicaciones y servicios, y su enfoque principal está en la gestión de ventas, marketing y servicio al cliente.
 
 
 
