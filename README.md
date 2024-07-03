@@ -221,7 +221,9 @@ Un Rol define la jerarquía de acceso y visibilidad. Se utilizan en conjunto con
 **✔️ G. ¿Qué es un Validation Rule?**
 
 Un Validation Rule es una regla lógica que se utiliza para asegurar que los datos ingresados por usuarios cumplan con diversos criterios antes de almacenarlos en la base de datos. Sirven para mantener la integridad y consistencia de los datos en Salesforce, asegurando que los registros cumplan con los estándares propios de cada organización.
+
 **H. ¿Qué diferencia hay entre una relación Master Detail y Lookup?**
+
 La relación Lookup vincula dos objetos para poder "buscar" un objeto en los elementos relacionados del otro objeto. Por otro lado, en las relaciones Master Detail, un objeto es el principal y otro es el detalle: en este tipo de relaciones, el objeto principal controla determinados comportamientos del objeto de detalle.
 
 **⛳ I. ¿Qué es un Sandbox?**
