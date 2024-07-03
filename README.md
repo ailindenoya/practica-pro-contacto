@@ -84,12 +84,96 @@ Hago GET nuevamente para ver que se haya hecho el POST de manera correcta:
 Mi POST (mi email y mi nombre) fueron agregados al listado de emails y nombres que obtuve en el primer GET.
 
 
+Ejercicio 4.
+
+https://www.salesforce.com/trailblazer/ailindenoya 
+
+Ejercicio 5.
+
+1. Lead
+Los Leads representan nuevos clientes u oportunidades de venta. Su fuente puede ser la web, una lista, entre otros. Contienen la información básica que necesita el equipo para hacer seguimiento al negocio. 
+3. Account
+Los Accounts son las compañías con las que se negocia. Por lo general se encuentran en el centro de las relaciones entre objetos.
+5. Contact
+Los Contacts son las personas con las que se contacta el equipo. Pueden provenir de Leads o de otras fuentes y son una buena forma de rastrear información individual para hacer crecer estas relaciones. 
+7. Opportunity
+Las Opportunities son los tratos en los que se encuentra trabajando el equipo y éste mismo validó como útiles para la organización. Permiten hacer seguimiento a tiempo real de información importante.
+9. Product
+Los Products son ítems o servicios que una compañía vende a sus clientes. Pueden ser utilizados en Objects, Opportunities, Quotes, Orders y Contracts. Pueden tener distintas jerarquías, condiciones y atributos.
+11. PriceBook
+Los Products se listan en los PriceBooks con sus respectivos precios.
+13. Quote
+Los Quotes son documentos formales que permiten al cliente conocer información sobre el producto o servicio en el que esté interesado.
+15. Asset
+Los Assets son registros que representan productos o servicios comprados por un cliente. Sirven para hacer un rastreo postventa, tal como garantías, mantenimiento y soporte.  
+17. Case
+Los Cases son registros útiles para la gestión de consultas de clientes, issues, o solicitudes de soporte. Son muy importantes resolver cualquier problema que pueda ocurrir con algún cliente.
+19. Article
+Los Articles son parte de la base de conocimiento de Salesforce (Salesforce Knowledge base), y proveen información, soluciones, y buenas prácticas tanto para usuarios como para clientes.
 
 
+![alt text](https://i.postimg.cc/cLdwtsd6/pro-con4.png) 
+
+Nota: Para las relaciones representé las que existen por default según el Schema Builder. Lead no parecía tener relación con alguno de los ítems relacionados. Por otro lado, investigué sobre Articles, y al ser un elemento que es gestionado por una base de datos interna de Salesforce, ésta no aparece en el Schema Builder. Sin embargo, podemos decir que este elemento puede tener una relación de muchos a muchos con cada uno de los demás elementos, ya que un artículo puede tratar sobre muchos elementos, y viceversa.
+
+Ejercicio 6.
+
+Soluciones de Salesforce
+A. ¿Qué es Salesforce?
+Es una empresa que ofrece software basado en la nube con el objetivo de que las organizaciones puedan tener una gestión rápida, fácil y segura. Cuenta flexibilidad, escalabilidad y un extenso ecosistema de aplicaciones que amplían sus funcionalidades principales a través de AppExchange.
+B. ¿Qué es Sales Cloud?
+Sales Cloud es un producto que ofrece Salesforce diseñado para la gestión y optimización de los procesos de venta de las organizaciones. Ayuda a las empresas a aumentar la productividad de sus equipos comerciales, mejorar la eficiencia operativa y optimizar el ciclo de ventas desde la captación de leads hasta el cierre de negocios. 
+C. ¿Qué es Service Cloud?
+Service Cloud es un servicio de atención al cliente basado en la nube ofrecido por Salesforce. Aprovecha el potencial de CRM (Customer Relationship Management) para brindar diferentes servicios de asistencia multicanal.
+D. ¿Qué es Health Cloud?
+Health Cloud es una solución CRM ofrecida por Salesforce para el sector de la salud que permite una interacción mejor con los pacientes desde cualquier dispositivo. Permite una colaboración más efectiva entre proveedores de salud, pacientes y equipos médicos. 
+E. ¿Qué es Marketing Cloud?
+Salesforce Marketing Cloud provee software y servicios de análisis y automatización de marketing digital. Está diseñada para facilitar la creación, ejecución y análisis de campañas de marketing multicanal.
+
+Funcionalidades de Salesforce
+A. ¿Qué es un RecordType?
+Un RecordType es un tipo de registro que permite personalizar la presentación y el comportamiento de los registros según las necesidades específicas de la organización. Es una manera de definir conjuntos distintos de campos, page layouts (diseños de página) y picklist values (valores de listas desplegables) que se aplican a un objeto estándar o personalizado.
+B. ¿Qué es un ReportType?
+Un ReportType es un tipo de reporte es un conjunto predefinido de objetos y relaciones que determina qué datos se pueden incluir en un informe y cómo se organizan y muestran esos datos. Es un esquema que define la estructura y las relaciones entre los datos que se pueden seleccionar y mostrar en un informe.
+C. ¿Qué es un Page Layout?
+Un Page Layout define la organización y visibilidad de los campos, secciones, y otros elementos en la interfaz de usuario para un objeto específico. Determina cómo se presentan y se ordenan los datos cuando los usuarios ven o editan registros de ese objeto
+D. ¿Qué es un Compact Layout?
+Un Compact Layout es una configuración de diseño que proporciona una vista rápida y accesible de información importante sin necesidad de abrir el registro completo. 
+E. ¿Qué es un Perfil?
+Un Perfil es un conjunto de permisos y diferentes configuraciones que sirven para determinar qué acciones y funciones puede realizar un usuario en la plataforma. Son fundamentales para gestionar y controlar el acceso y las capacidades de los usuarios en la plataforma
+F. ¿Qué es un Rol?
+Un Rol define la jerarquía de acceso y visibilidad. Se utilizan en conjunto con los perfiles para determinar quién puede ver y editar registros. También sirven para establecer la seguridad y el acceso en diferentes niveles dentro de la estructura organizativa. 
+G. ¿Qué es un Validation Rule?
+Un Validation Rule es una regla lógica que se utiliza para asegurar que los datos ingresados por usuarios cumplan con diversos criterios antes de almacenarlos en la base de datos. Sirven para mantener la integridad y consistencia de los datos en Salesforce, asegurando que los registros cumplan con los estándares propios de cada organización.
+H. ¿Qué diferencia hay entre una relación Master Detail y Lookup?
+La relación Lookup vincula dos objetos para poder "buscar" un objeto en los elementos relacionados del otro objeto. Por otro lado, en las relaciones Master Detail, un objeto es el principal y otro es el detalle: en este tipo de relaciones, el objeto principal controla determinados comportamientos del objeto de detalle.
+I. ¿Qué es un Sandbox?
+Un Sandbox es una copia del sistema u organización que se desarrolló en Salesforce que se utiliza para el desarrollo y pruebas. Este no afecta la instancia de producción principal.
+J. ¿Qué es un ChangeSet?
+Un ChangeSet es una herramienta que se utiliza para agrupar y migrar configuraciones personalizadas entre un Sandbox y el entorno de producción. 
+K. ¿Para qué sirve el import Wizard de Salesforce?
+
+L. ¿Para qué sirve la funcionalidad Web to Lead?
+M. ¿Para qué sirve la funcionalidad Web to Case?
+N. ¿Para qué sirve la funcionalidad Omnichannel?
+O. ¿Para qué sirve la funcionalidad Chatter?
 
 
-
-
+Conceptos generales
+A. ¿Qué significa SaaS?
+B. ¿Salesforce es Saas?
+C. ¿Qué significa que una solución sea Cloud?
+D. ¿Qué significa que una solución sea On-Premise?
+E. ¿Qué es un pipeline de ventas?
+F. ¿Qué es un funnel de ventas?
+G. ¿Qué significa Customer Experience?
+H. ¿Qué significa omnicanalidad?
+I. ¿Qué significa que un negocio sea B2B?¿Qué significa que un negocio sea B2C?¿Qué es un KPI?
+J. ¿Qué es una API y en qué se diferencia de una Rest API?
+K. ¿Qué es un Proceso Batch?
+L. ¿Qué es Kanban?
+M. ¿Qué es un ERP?
+N. ¿Salesforce es un ERP?
 
 
 
