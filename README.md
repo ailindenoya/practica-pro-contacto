@@ -314,12 +314,35 @@ Un ERP (Enterprise Resource Planning) es un sistema integrado de gestión empres
 Salesforce no es un ERP. Sin embargo, ofrece varias soluciones comerciales que se pueden integrar para mejorar y respaldar un ERP. Tiene capacidades extendidas a través de su ecosistema de aplicaciones y servicios, y su enfoque principal está en la gestión de ventas, marketing y servicio al cliente.
 
 ## Ejercicio 7.
+
+Instalamos e iniciamos Data Loader.
 ![alt text](https://i.postimg.cc/2SPwnh6T/Capture1.png) 
+
+Una vez logueados, hacemos click en insert.
+
 ![alt text](https://i.postimg.cc/SKCGdRY4/Capture4.png) 
+
+Importamos el archivo del módulo 4, y siguiendo las mismas instrucciones que en ese ejercicio, selecciono contacto.
+
 ![alt text](https://i.postimg.cc/L56BmVC4/Capture5.png) 
+
+Dejo estos campos de la manera en que estaban.
+
 ![alt text](https://i.postimg.cc/QC4gCWwQ/Capture6.png) 
+
+Hago el mapeo de cada uno de los campos, tal como se especificaba en dicho módulo.
+
 ![alt text](https://i.postimg.cc/fLvf4Pvg/Capture7.png) 
-![alt text](https://i.postimg.cc/ydKybK0Z/Capture8.png) 
+
+Elegimos la carpeta de destino. 
+
+![alt text](https://i.postimg.cc/ydKybK0Z/Capture8.png)
+
+La operación se concretó correctamente.
+
 ![alt text](https://i.postimg.cc/44BQBryY/Capture9.png)
+
+Observamos los resultados de lo que se insertó.
+
 
 
